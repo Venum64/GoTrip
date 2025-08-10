@@ -1,0 +1,55 @@
+@media screen and (max-width:1400px) {
+    .catalog__gotrip {
+        gap: 20px;
+    }
+}
+
+@media screen and (max-width:1232px) {
+    .catalog__gotrip {
+        flex-wrap: wrap;
+        gap: 15px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .catalog__title {
+        text-align: center;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width:1031px) {
+    .about__wrap2 {
+        flex-direction: column;
+    }
+
+    .about__title {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width:765px) {
+    .flex__text {
+        flex-direction: column;
+        gap: 15px;
+    }
+}
+
+@media screen and (max-width:650px) {
+    .header__nav {
+        flex-direction: column;
+        gap: 15px;
+    }
+}
+
+@media screen and (max-width:530px) {
+    .banner__slogan{
+        text-align: center;
+    }
+}
